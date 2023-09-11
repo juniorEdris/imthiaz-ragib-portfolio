@@ -38,7 +38,7 @@ const LandingPageSkills = () => {
                 JavaScript
               </h3>
               <div className="py-6">
-                <ul class="flex flex-wrap gap-3 text-app-secondary-dark list-disc list-inside pl-4 mb-8">
+                <ul className="flex flex-wrap gap-3 text-app-secondary-dark list-disc list-inside pl-4 mb-8">
                   {Javascript?.map((item, _idx) => (
                     <li key={_idx}>{item}</li>
                   ))}
@@ -51,7 +51,7 @@ const LandingPageSkills = () => {
                 HTML & CSS
               </h3>
               <div className="py-6">
-                <ul class="flex flex-wrap gap-3 text-app-secondary-dark list-disc list-inside pl-4 mb-8">
+                <ul className="flex flex-wrap gap-3 text-app-secondary-dark list-disc list-inside pl-4 mb-8">
                   {css?.map((item, _idx) => (
                     <li key={_idx}>{item}</li>
                   ))}
