@@ -9,15 +9,16 @@ const AboutMe = () => {
 
         <div className="md:max-w-5xl md:m-auto">
           <p className="text-lg md:text-2xl">
-            I am a passionate full-stack web application developer with
-            extensive experience in creating MERN applications. I am dedicated
-            to writing clean and efficient code, constantly striving to enhance
-            my skills and incorporate new technologies into my projects. I
-            possess the expertise to assist you with all aspects of your
-            project, ranging from developing responsive frontend code to
-            creating robust APIs. By leveraging my skills, I can effectively
-            contribute to the growth and sustainability of your business and
-            ideas. Let&apos;s collaborate and bring your vision to life.
+            I am a JavaScript/TypeScript frontend developer with 3+ years of
+            experience. I am proficient in React js, Next js, and CSS libraries
+            like Material UI, Styled Components, Bootstrap, Tailwind CSS, React
+            Bootstrap and other popular CSS libraries. I am also experienced in
+            working with APIs, databases, and other back-end technologies. I am
+            a highly motivated and detail-oriented individual with a passion for
+            creating beautiful and functional user interfaces. I am also a quick
+            learner and I am always up for a challenge. I am confident that I
+            can help you build the perfect frontend for your website or
+            application. I am available for both freelance and full-time work.
           </p>
         </div>
       </Container>
