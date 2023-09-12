@@ -6,7 +6,7 @@ const LandingPageBio = () => {
   return (
     <section className="py-12" id="#my-bio">
       <Container>
-        <div className="grid md:grid-cols-2 gap-2">
+        <div className="grid md:grid-cols-2 gap-4">
           <div className="grid place-content-center">
             <div className="flex flex-col gap-2">
               <h1 className="text-lg md:text-2xl text-gray-600 mb-1">
@@ -22,7 +22,7 @@ const LandingPageBio = () => {
               <div className="">
                 <Link
                   href={`#about-me`}
-                  className="inline-block py-3 px-6 border border-app-secondary-dark text-app-secondary-dark font-nunito font-light hover:opacity-80"
+                  className="flex justify-center items-center sm:inline-block py-3 px-6 border border-app-secondary-dark text-app-secondary-dark font-nunito font-light hover:opacity-80"
                 >
                   Find Out More
                 </Link>

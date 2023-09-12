@@ -24,8 +24,8 @@ const SingleProject = ({
             }`}
           >
             <ImageWithCustomSize
-              parentClassName="h-[645px] rounded-md"
-              className="rounded-md"
+              parentClassName="md:h-[645px]"
+              className=""
               image={image}
               alt={title}
             />

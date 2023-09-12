@@ -3,6 +3,7 @@ import LandingPageBio from "@/components/landingPage/my-bio";
 import AboutMe from "@/components/landingPage/aboutMe";
 import AllProjects from "@/components/landingPage/projects";
 import LandingPageSkills from "@/components/landingPage/skills";
+import FiverrServicesSection from "@/components/landingPage/fiverr-services";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutMe />
       <LandingPageSkills />
       <LandingPageHero />
+      <FiverrServicesSection />
       <AllProjects />
     </main>
   );
