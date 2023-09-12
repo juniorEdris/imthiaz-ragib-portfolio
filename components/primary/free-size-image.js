@@ -13,7 +13,7 @@ const ImageWithCustomSize = ({
     >
       <Image
         src={image}
-        className={cn("w-full object-cover", className)}
+        className={cn("w-full object-contain", className)}
         fill={true}
         priority={false}
         alt={alt}

@@ -48,13 +48,14 @@ const HeroSlider = ({ items }) => {
           className="!flex justify-center items-center w-full"
         >
           <ImageWithCustomSize
-            parentClassName="h-72"
+            parentClassName="md:h-72"
+            className="md:object-cover"
             image={item?.image}
             alt={item?.description}
           />
         </SwiperSlide>
       ))}
-      <SwiperNavButtons />
+      {/* <SwiperNavButtons /> */}
     </Swiper>
   );
 };
