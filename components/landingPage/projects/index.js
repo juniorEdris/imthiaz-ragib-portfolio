@@ -4,7 +4,7 @@ import { projects } from "@/lib/utils/uiData";
 
 const AllProjects = () => {
   return (
-    <section className="py-12">
+    <section className="py-12" id="projects">
       <LandingPageHeadings heading="projects" />
 
       <div className="grid gap-y-1">

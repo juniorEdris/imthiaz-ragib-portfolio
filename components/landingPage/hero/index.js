@@ -5,7 +5,7 @@ import { LandingPageHeadings } from "@/components/primary/app-headings.js";
 
 const LandingPageHero = () => {
   return (
-    <section className="py-12" id="landing-hero">
+    <section className="py-12" id="my-services">
       <Container>
         <LandingPageHeadings heading="My Services" headingClassName="" />
       </Container>
