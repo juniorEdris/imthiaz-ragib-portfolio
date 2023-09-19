@@ -1,4 +1,4 @@
-// import { AppHeader } from "@/components/primary/app-header";
+import { AppHeader } from "@/components/primary/app-header";
 import { TWMaterialComponents } from "@/lib/twMaterialAssets";
 import "./globals.css";
 
@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
       <body className="overflow-x-hidden pb-12">
         <section className="relative max-w-[1480px] m-auto">
           <TWMaterialComponents>
-            {/* <AppHeader /> */}
-            <section className="overflow-x-hidden">{children}</section>
+            <AppHeader />
+            <section className="overflow-x-hidden sm:pt-7">{children}</section>
           </TWMaterialComponents>
         </section>
       </body>

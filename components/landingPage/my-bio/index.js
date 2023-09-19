@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const LandingPageBio = () => {
   return (
-    <section className="py-12" id="#my-bio">
+    <section className="py-12" id="my-bio">
       <Container>
         <div className="grid md:grid-cols-2 gap-4">
           <div className="grid place-content-center">
