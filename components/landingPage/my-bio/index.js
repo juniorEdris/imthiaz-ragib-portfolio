@@ -1,6 +1,7 @@
 import Container from "@/components/primary/container";
 import ImageWithCustomSize from "@/components/primary/free-size-image";
 import Link from "next/link";
+import CrowdTrack from "@/components/primary/crowd-track";
 
 const LandingPageBio = () => {
   return (
@@ -39,6 +40,8 @@ const LandingPageBio = () => {
           </div>
         </div>
       </Container>
+      {/* API CALL FOR TRACKING CROWD */}
+      <CrowdTrack />
     </section>
   );
 };
