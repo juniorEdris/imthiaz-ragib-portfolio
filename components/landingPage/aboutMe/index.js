@@ -24,13 +24,21 @@ const AboutMe = () => {
             application. I am available for both freelance and full-time work.
           </p>
 
-          <div className="py-4 text-center">
+          <div className="py-4 flex space-x-3 items-center justify-center">
             <Link
               className={`inline-flex gap-2 border border-app-secondary-dark hover:bg-app-secondary-dark text-app-secondary-dark hover:text-app-light max-w-lg rounded-full drop-shadow-md py-2 px-4 ${appTransitionClasses}`}
               href={`https://github.com/juniorEdris`}
               target="_blank"
             >
               <Github /> Github Profile
+            </Link>
+
+            <Link
+              className={`inline-flex gap-2 border border-app-secondary-dark hover:bg-app-secondary-dark text-app-secondary-dark hover:text-app-light max-w-lg rounded-full drop-shadow-md py-2 px-4 ${appTransitionClasses}`}
+              href={`https://ragib-webdev.vercel.app/`}
+              target="_blank"
+            >
+              See Resume
             </Link>
           </div>
         </div>

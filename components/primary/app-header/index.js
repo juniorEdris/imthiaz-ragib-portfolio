@@ -16,6 +16,7 @@ export const AppHeader = () => {
                 <Link
                   href={item?.href}
                   className={`text-sm md:text-lg text-app-secondary-dark capitalize hover:text-app-theme ${appTransitionClasses}`}
+                  target={item?.title !== "resume" ? "_parent" : "_blank"}
                 >
                   {item?.title}
                 </Link>
